@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Car Rental</title>
+	<link rel="stylesheet" href="../styles/styles.css">
+	
+	<link rel="stylesheet" href="../styles/register.css">
+	<script type="text/javascript" src="../js/register.js"></script>
+</head>
+<body>
+
+	
+	<center>
+		<div class="header">
+			<img src="../photos/logo.png"  alt="logo Image" class="logo">
+			<div class="headertext">
+			<h1>Cool Rental</h1>
+			<h3 id="header">Online Vehicle Rental Service</h3>
+			<h4 id="sup">For supporting gmail us: carcoolrental@gmail.com </h4>
+			<h4 id="sup">Service helping call us: +94782548125</h4>
+			</div>
+			</div>
+	</center>
+	<div class="layout">
+		<a href="../../1/html/homepage.html" id="head">HOME</a>
+		<a href="../../3/html2.html" id="head">VEHICLE CATEGORIES</a>
+		<a href="../../4/Notices.html"  id="head">NOTICES</a>
+		<a href="../../4/offers.html"  id="head">OFFERS</a>
+		<a href="../../2/about us.html" id="head">ABOUT US</a>
+		<a href="../../3/html3.html" id="head">CONTACT US</a>
+		<a href="../../1/html/Login.html" id="head">LOGIN/REGISTER</a>
+		<div class="search">
+					
+					
+					<input type="text" placeholder="Search">
+					<label class="fa fa-search input-icon"></label>
+					
+					</div>
+				</div>
+		
+			<h5>Welcome to the cool rentals</h5>
+
+			<form target="Login.html" method="POST" action="submitragistor.php" onsubmit="return cheakpassword()">
+			  <div class="regis">
+				<h6>Registration form</h6>
+				
+				<hr>
+				
+				<label for="fname"><b>First Name:</b></label><br> 
+				<input type="text" id="fname" name="fname" style="width:1000px" placeholder="First Name" required><br/>
+				
+				<label for="fname"><b>Last Name:</b></label><br>
+				<input type="text" id="fname" name="lname" style="width:1000px" placeholder="Last Name" required><br/>
+			
+				<label for="gender"><b>Gender:</b></label><br>
+				<label class="gen">Male
+				<input type="radio" checked="checked" name="radio">
+				<span class="checkmark"></span>
+				</label><br>
+				<label class="gen">Female
+				<input type="radio" name="radio">
+				<span class="checkmark"></span>
+				</label><br>
+			
+				<label for="phone"><b>Phone number :</b></label><br>
+				<input type="tel" id="fname" name="phone" pattern="[0-9]{10}" style="width:1000px" placeholder="Phone number" required><br>
+				
+				<label for="address"><b>Address :</b></label><br>
+				<textarea id="fname" name="address" rows="10" cols="50"style="width:500px" placeholder="Address";required></textarea><br>
+				
+				<label for="dob"><b>Choose your DOB:</b></label><br>
+				<input type="date" name="day" id="fname" style="width:300px" required><br><br>
+			
+				<label for="email"><b>Email</b></label><br>
+				<input type="text" placeholder="Enter Email" name="email" id="fname" style="width:1000px" required><br>
+			
+				<label for="psw"><b>Password</b></label><br>
+				<input type="password" placeholder="Enter Password" name="Pass" id="Pass" style="width:1000px" required><br>
+				<input type="checkbox" onclick="myFunction()">Show Password <br><br>
+			
+				<label for="psw-repeat"><b>Repeat Password</b></label><br>
+				<input type="password" placeholder="Repeat Password" name="rePass" id="rePass" style="width:1000px" required><br>
+				<input type="checkbox" onclick="reFunction()">Show Password <br><br>
+				<hr>
+			
+				<p id="reg"><input type="checkbox" id="policy" name="policy" required onclick="enablebutton()">  I agree to <a href="#">Terms & Privacy</a>.</p>
+				
+				<button type="submit"  id="registerbtn" name="registerbtn" class="registerbtn" disabled>Register</button>
+				<button type="reset" class="resetbtn">Reset</button>
+			  </div>
+			  </form>
+
+			  <hr>
+			  <table style="width:100%" class="tbl">
+				 <tr>
+				  <th></th>
+				  <th></th> 
+				  <th></th>
+				 </tr>
+				   </tr>
+				  <tr>
+				  <td><h2 id="footer">© 2020 Copyright: Cool Rentals</h2></td>
+				  <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+				  <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+				  <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+				  <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+				  <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+				  <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="www.facebook.com"><img src="../Photos/fb.jpg" class="icon"></a>&nbsp;&nbsp;<a href="www.instagram.com"><img src="../Photos/insta.jpg" class="icon"></a>&nbsp;&nbsp;<a href="www.web.whatsapp.com"><img src="../Photos/wh.png" class="icon"></a>&nbsp;&nbsp;<a href="www.twitter.com"><img src="../Photos/tw.png" class="icon"></a>&nbsp;&nbsp;</td>
+				</tr>
+			  
+			  </table>
+			  <hr>
+</body>
+</html>
