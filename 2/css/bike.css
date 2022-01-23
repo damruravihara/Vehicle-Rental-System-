@@ -1,0 +1,65 @@
+@charset "utf-8";
+body{
+	background-color:black;
+}
+
+.vehiclas{
+	overflow:hidden;
+	background-color:#008080;
+}
+.vehicals a{
+	display:block;
+	float:left;
+	color:white;
+	text-align:center;
+	padding:15px;
+	font-size:17px;
+	text-decoration:none;
+}
+.vehicals a:hover{
+	background-color:#808080
+}
+
+p.bord{
+	border-style:solid;
+	border-color:black;
+	background-color:#333333;
+	width:50%;
+}
+.more{
+	margin-left:100px;
+	margin-bottom:10px;
+	background-color:#ff80aa;
+	width:100px;
+	
+}
+nav.bike{
+	float:left;
+	width:80%;
+	height:300px;
+}
+article.bike{
+  float: left;
+  padding-left: 20px;
+  padding-top:50px;
+  width: 20%;
+
+  height: 300px; 
+}
+.user{
+	width:100px;
+	height:100px;
+	float:right;
+}
+.icon{
+	width:45px;
+	height:45px;
+	padding:5px;
+	float:right;
+	
+} 
+p.para{
+	border-style:solid;
+	border-color:black;
+	
+}

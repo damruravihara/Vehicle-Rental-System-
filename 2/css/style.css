@@ -1,0 +1,132 @@
+@charset "utf-8";
+.logo {
+	position: absolute;
+  	left: 10px;
+	width: 300px;
+	height: 200px;
+}
+
+.homecar{
+	
+  	left: 10px;
+	width: 1330px;
+	height: 750px;
+
+
+
+}
+
+
+h1{
+	text-align:center;
+	font-size: 40px;
+	color: blue;
+}
+
+h3#header {
+	text-align: center;
+	font-weight: bold;
+	
+	font-size: 32px;
+	color: blue;
+}
+h4{
+	color:white;
+	text-align: center;
+}
+
+
+
+.layout{
+	overflow:hidden;
+	background-color:#008080;
+}
+
+.layout a{
+	display:block;
+	float:left;
+	color:white;
+	text-align:center;
+	padding:15px;
+	font-size:17px;
+	text-decoration:none;
+}
+
+.layout a:hover{
+	background-color:#808080
+}
+
+.layout .search{
+	float:right;
+}
+
+.layout input[type=text]{
+	padding:15px;
+	margin-top:2px;
+	font-size:17px;
+	border:none;
+	width:200px;
+}
+
+.search-icon{
+	position:absolute;
+	left:3px;
+	top: clac(50%-0.5em);
+}
+body{
+	background-image:url('images/car 1.jpg');
+	color:white;
+	background-size:100%;
+	background-color:black;
+    
+}
+
+
+* {
+  box-sizing: border-box;
+}
+nav{
+  float: left;
+  width: 75%;
+  height:300px;
+  color:white;
+}
+article {
+  float: left;
+  padding-left: 20px;
+  width: 25%;
+
+  height: 300px;
+  color:white;  
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: black;
+  padding: 10px;
+  
+  color: white;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+}
+.btndate{
+	float:right;
+	background-color:black;
+	
+}
+.icon{
+	width:40px;
+	height:45px;
+	padding:5px;
+}
+.user{
+	width:100px;
+	height:100px;
+	float: right;
+}
