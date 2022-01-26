@@ -8,3 +8,7 @@ Online Vehicle Rental System using HTML,JavaScript,Css, PHP &amp; MySQL Database
 * Customer Login/Registration
 * HomePage
 
+## Used Technologies
+* XAMPP
+* MYSQL
+
